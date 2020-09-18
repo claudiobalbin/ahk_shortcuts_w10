@@ -31,3 +31,13 @@
 ^<#Numpad0::
     Send {Volume_Mute}
     return
+
+; Opens Chrome
+^<#c::
+    Run "C:\Program Files\Google\Chrome\Application\chrome.exe"
+    return
+
+; Opens Calculator
++<#c::
+    Run "calc"
+    return
